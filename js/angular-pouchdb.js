@@ -97,7 +97,7 @@ angular.module('pouchdb', [])
       }
 
       return function pouchDB(name, options) {
-        var db = new $window.PouchDB(name, options);
+        var db = new PouchDB(name, options);
         return wrapMethods(db, self.methods);
       };
     }];

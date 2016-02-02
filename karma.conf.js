@@ -14,8 +14,10 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      {pattern: 'libs/angular.js', watch: false},
-      'js/*.js',
+      'bower_components/angular/angular.js',
+      'bower_components/pouchdb/dist/pouchdb.js',
+      'bower_components/angular-pouchdb/angular-pouchdb.js',
+      'js/app.js',
       'test/*.js'
     ],
 
