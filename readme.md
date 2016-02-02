@@ -28,11 +28,17 @@ The main difference with **BFS** (Breadth-First Search) is that is possible that
 So, if we have the tree
 
  a
+ 
  |\
+ 
  b c
+ 
  | |
+ 
  d e
+ 
  |
+ 
  f
 
  In DFS, the path of the search would be the following: **a-b-d-f-c-e**
